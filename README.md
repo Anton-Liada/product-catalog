@@ -2,7 +2,7 @@
 
 Link to the [Page](https://funnyteamname.github.io/productCatalog/)\
 Here you can see [Figma design](https://www.figma.com/file/BUusqCIMAWALqfBahnyIiH/Phone-catalog-(V2)-Original-Dark?node-id=0%3A1)\
-Server side deployed via [Heroku](https://www.heroku.com)\
+Server side deployed via [Render](https://render.com/)\
 Client side deployed via [GitHub Pages](https://pages.github.com)
 
 <hr />
