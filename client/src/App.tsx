@@ -10,7 +10,9 @@ export const App = () => {
 
   useEffect(() => {
     const loadPhones = async () => {
-      const response = await axios.get('http://localhost:8080/products');
+      const response = await axios.get(
+        'https://product-server.onrender.com/products',
+      );
 
       const data = await response.data;
 

@@ -7,6 +7,8 @@ import './HeroSection.scss';
 import '../ProductsSwiper/ProductsSwiper.scss';
 
 export const HeroSection = () => {
+  const BASE_URL = 'https://product-server.onrender.com';
+
   return (
     <section className="home__section-hero section-hero">
       <h1
@@ -33,12 +35,12 @@ export const HeroSection = () => {
           <SwiperSlide>
             <picture>
               <source
-                srcSet="http://localhost:8080/img/banner-1mobile.jpg"
+                srcSet={`${BASE_URL}/img/banner-1mobile.jpg`}
                 media="(max-width: 500px)"
               />
               <img
                 className="hero-swiper__img"
-                src="http://localhost:8080/img/banner-1.jpg"
+                src={`${BASE_URL}/img/banner-1.jpg`}
                 alt="slider"
               />
             </picture>
@@ -47,7 +49,7 @@ export const HeroSection = () => {
           <SwiperSlide>
             <img
               className="hero-swiper__img"
-              src="http://localhost:8080/img/banner-2.png"
+              src={`${BASE_URL}/img/banner-2.png`}
               alt="slider"
             />
           </SwiperSlide>
@@ -55,7 +57,7 @@ export const HeroSection = () => {
           <SwiperSlide>
             <img
               className="hero-swiper__img"
-              src="http://localhost:8080/img/banner-3.png"
+              src={`${BASE_URL}/img/banner-3.png`}
               alt="slider"
             />
           </SwiperSlide>
